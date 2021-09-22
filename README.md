@@ -7,7 +7,8 @@
   -     `npm install puppeteer`
   -     `npm install puppeteer-extra`
   -     `npm install puppeteer-extra-plugin-stealth`
-3. Enter a valid link in the link.js file (an example link is provided) and then get the price.
+3. Enter a valid link in the link.js file (an example link is provided).
+4. Enter the command `node app.js` or any other way to run the script according to your preference and get the price.
 
 # Use Case:
 
