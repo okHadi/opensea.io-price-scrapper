@@ -1,0 +1,2 @@
+const link = "https://opensea.io/assets/0xff6889ea7d06137edd949f8381a14f0ffc39ba80/183"             //add the link between the inverted commas as a string. This is an example link.
+module.exports = {link}
