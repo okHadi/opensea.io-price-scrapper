@@ -1,13 +1,13 @@
- A short script for web scraping the price of products on opeansea.io.
+ ## A short script for scraping the price of products on opeansea.io.
 
  # Requirements:
 
- 1- You should have npm installed.
- 2- You should install the given libraries by these commands:
-        `npm install puppeteer`
-        `npm install puppeteer-extra`
-        `npm install puppeteer-extra-plugin-stealth`
-3- Enter a valid link in the link.js file (an example link is provided) and then get the price.
+ 1. You should have npm installed.
+ 2. You should install the given libraries by these commands:
+  -     `npm install puppeteer`
+  -     `npm install puppeteer-extra`
+  -     `npm install puppeteer-extra-plugin-stealth`
+3. Enter a valid link in the link.js file (an example link is provided) and then get the price.
 
 # Use Case:
 
