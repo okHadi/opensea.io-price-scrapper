@@ -21,12 +21,12 @@ const priceFunction = async function scrape(url){
     console.log("Fetching the price...")
     let element = await page.evaluate(() =>{       //evaluate is used to execute javascript in puppeteer
         const priceElement = document.getElementsByClassName("Overflowreact__OverflowContainer-sc-10mm0lu-0 fqMVjm Price--fiat-amount Price--fiat-amount-secondary")[0].innerText
-        return {price}
+        return {priceElement}
     })
     console.log(elementt)
     browser.close()
 }
  
  
-priceee(link.link)
-//console.log(priceee)
+priceFunction(link.link)
+//console.log(priceFunction)
