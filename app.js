@@ -5,7 +5,7 @@ let pluginStealth = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(pluginStealth());
  
 puppeteer = require('puppeteer')
-const priceee = async function scrape(url){
+const priceFunction = async function scrape(url){
     const browser = await puppeteer.launch() //starts a new browser
     const page = await browser.newPage()    //starts a new page
     console.log("Browser opened up.")
@@ -19,8 +19,8 @@ const priceee = async function scrape(url){
         
     })
     console.log("Fetching the price...")
-    let elementt = await page.evaluate(() =>{       //evaluate is used to execute javascript in puppeteer
-        const price = document.getElementsByClassName("Overflowreact__OverflowContainer-sc-10mm0lu-0 fqMVjm Price--fiat-amount Price--fiat-amount-secondary")[0].innerText
+    let element = await page.evaluate(() =>{       //evaluate is used to execute javascript in puppeteer
+        const priceElement = document.getElementsByClassName("Overflowreact__OverflowContainer-sc-10mm0lu-0 fqMVjm Price--fiat-amount Price--fiat-amount-secondary")[0].innerText
         return {price}
     })
     console.log(elementt)
